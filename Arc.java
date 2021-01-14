@@ -21,14 +21,14 @@ public class Arc
     /**
      * Create a new arc at default position with default color.
      */
-    public Arc()
+    public Arc(int initDiameter, int initXPosition, int initYPosition, int initStartAngle, int initExtent, Color initColor)
     {
-        diameter = 68;
-        xPosition = 130;
-        yPosition = 75;
-        startAngle = 30;
-        extent = 120;
-        color = Canvas.getColor("magenta");
+        diameter = initDiameter;
+        xPosition = initXPosition;
+        yPosition = initYPosition;
+        startAngle = initStartAngle;
+        extent = initExtent;
+        color = initColor;
     }
     
     /**

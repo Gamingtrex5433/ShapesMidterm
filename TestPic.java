@@ -10,8 +10,8 @@ public class TestPic
         pic.setTitle("Shapes Constructor Test Picture");
         
         // Draw my picture
-        Rect r = new Rect();
-        r.makeVisible();
+        //Rect r = new Rect();
+        //r.makeVisible();
 
         // Save the picture to a file
         String filename = "testpic.png";
